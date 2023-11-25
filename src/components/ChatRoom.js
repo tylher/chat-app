@@ -30,11 +30,6 @@ const ChatRoom = ({ username, stompClient }) => {
         sender: username,
       })
     );
-    // stompClient.subscribe("topic/public", (payload) => {
-    //   let message = JSON.parse(payload.body);
-    //   const newMessage = message.sender + ": " + message.content;
-    //   updateMessages(newMessage);
-    // });
   };
 
   return (

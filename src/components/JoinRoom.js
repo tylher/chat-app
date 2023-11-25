@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useMessagesContext } from "../helpers/MessageContext";
 
 const JoinRoom = ({ onJoin }) => {
   const [username, setUsername] = useState("");
